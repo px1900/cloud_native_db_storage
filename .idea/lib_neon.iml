@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/libs/metrics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/postgres_connection/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/pq_proto/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/remote_storage/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/remote_storage/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/utils/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/utils/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/utils/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/workspace_hack/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
