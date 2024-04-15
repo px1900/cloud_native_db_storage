@@ -1,0 +1,34 @@
+seccomp.o: /Users/rainman/github/lib_neon//pgxn/neon_walredo/seccomp.c \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/c.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres_ext.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_ext.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_manual.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_os.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/elog.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/errcodes.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/palloc.h
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/c.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres_ext.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_ext.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_manual.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_os.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/elog.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/errcodes.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/palloc.h:

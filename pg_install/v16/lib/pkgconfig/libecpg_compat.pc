@@ -1,0 +1,14 @@
+prefix=/Users/rainman/github/test_neon/neon/pg_install/v16
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+URL: https://www.postgresql.org/
+Version: 16.2
+Requires: 
+Requires.private: libecpg, libpgtypes
+Cflags: -I${includedir}
+Libs: -L${libdir} -lecpg_compat
+Libs.private: -L/usr/local/opt/openssl@3/lib -lecpg -lpgcommon -lpgport -lpq -lm

@@ -1,0 +1,49 @@
+neon_utils.o: /Users/rainman/github/lib_neon//pgxn/neon/neon_utils.c \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/c.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres_ext.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_ext.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_manual.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_os.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/elog.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/errcodes.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/palloc.h \
+  /Users/rainman/github/lib_neon//pgxn/neon/neon_utils.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/lib/stringinfo.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/libpq/pqformat.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/mb/pg_wchar.h \
+  /Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port/pg_bswap.h
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/c.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/postgres_ext.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_ext.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_manual.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/pg_config_os.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/elog.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/errcodes.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/utils/palloc.h:
+
+/Users/rainman/github/lib_neon//pgxn/neon/neon_utils.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/lib/stringinfo.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/libpq/pqformat.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/mb/pg_wchar.h:
+
+/Users/rainman/github/lib_neon/pg_install/v14/include/postgresql/server/port/pg_bswap.h:

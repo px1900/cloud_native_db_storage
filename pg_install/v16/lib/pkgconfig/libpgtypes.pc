@@ -1,0 +1,14 @@
+prefix=/Users/rainman/github/test_neon/neon/pg_install/v16
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+URL: https://www.postgresql.org/
+Version: 16.2
+Requires: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpgtypes
+Libs.private: -L/usr/local/opt/openssl@3/lib -lpgcommon -lpgport -lm

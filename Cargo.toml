@@ -1,12 +1,21 @@
 [workspace]
 resolver = "2"
 members = [
+    "storage_broker",
     "workspace_hack",
     "libs/metrics",
     "libs/remote_storage",
     "libs/utils",
     "libs/pq_proto",
     "libs/postgres_connection",
+    "libs/consumption_metrics",
+    "pageserver",
+    "libs/postgres_backend",
+    "libs/pageserver_api",
+    "libs/postgres_ffi",
+    "libs/postgres_ffi/wal_craft",
+    "libs/tenant_size_model",
+
 ]
 
 [workspace.package]
@@ -142,10 +151,18 @@ log = "0.4"
 
 ## Local libraries
 metrics = { version = "0.1", path = "./libs/metrics/" }
+pageserver_api = { version = "0.1", path = "./libs/pageserver_api/" }
+postgres_backend = { version = "0.1", path = "./libs/postgres_backend/" }
+consumption_metrics = { version = "0.1", path = "./libs/consumption_metrics/" }
+postgres_ffi = { version = "0.1", path = "./libs/postgres_ffi/" }
 remote_storage = { version = "0.1", path = "./libs/remote_storage/" }
 utils = { version = "0.1", path = "./libs/utils/" }
 postgres_connection = { version = "0.1", path = "./libs/postgres_connection/" }
 pq_proto = { version = "0.1", path = "./libs/pq_proto/" }
+storage_broker = { version = "0.1", path = "./storage_broker/" } # Note: main broker code is inside the binary crate, so linking with the library shouldn't be heavy.
+tenant_size_model = { version = "0.1", path = "./libs/tenant_size_model/" }
+
+
 
 ## Common library dependency
 workspace_hack = { version = "0.1", path = "./workspace_hack/" }
@@ -154,6 +171,8 @@ workspace_hack = { version = "0.1", path = "./workspace_hack/" }
 postgres = { git = "https://github.com/neondatabase/rust-postgres.git", rev="7434d9388965a17a6d113e5dfc0e65666a03b4c2" }
 tokio-postgres = { git = "https://github.com/neondatabase/rust-postgres.git", rev="7434d9388965a17a6d113e5dfc0e65666a03b4c2" }
 postgres-protocol = { git = "https://github.com/neondatabase/rust-postgres.git", rev="7434d9388965a17a6d113e5dfc0e65666a03b4c2" }
+postgres-types = { git = "https://github.com/neondatabase/rust-postgres.git", rev="7434d9388965a17a6d113e5dfc0e65666a03b4c2" }
+
 
 
 heapless = { default-features=false, features=[], git = "https://github.com/japaric/heapless.git", rev = "644653bf3b831c6bb4963be2de24804acf5e5001" } # upstream release pending
